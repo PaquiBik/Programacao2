@@ -23,3 +23,7 @@ footer{
     margin: 70px;
     padding: 70px;
 }   
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
