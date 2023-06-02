@@ -2,7 +2,7 @@ header{
     
     background-color: aquamarine;
 margin: auto;
-padding: auto;
+padding: 180px;
 }
 
 body{
@@ -22,7 +22,7 @@ margin: auto;
 }
 footer{
     display: flex;
-    background-color: rgb(119, 0, 255);
+    background-color: rgb(72, 255, 0);
     margin: auto;
-    padding: auto;
+    padding: 220px;
 }   
