@@ -6,7 +6,7 @@ header{
 }
 
 body{
-    background-color: blueviolet;
+    background-color: rgb(209, 209, 209);
 }
 .topicos{
     font-size: medium;
@@ -23,7 +23,3 @@ footer{
     margin: 70px;
     padding: 70px;
 }   
-.rodape {
-    text-align: center;
-    margin: 5em 3em;
-}
