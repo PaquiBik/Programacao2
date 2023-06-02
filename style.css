@@ -1,11 +1,8 @@
-:root{
-    background-color: azure;
-}
 header{
     
     background-color: aquamarine;
 margin: auto;
-
+padding: auto;
 }
 
 body{
@@ -25,7 +22,7 @@ margin: auto;
 }
 footer{
     display: flex;
-    background-color: blanchedalmond;
-    margin: 70px;
-    padding: 70px;
+    background-color: rgb(119, 0, 255);
+    margin: auto;
+    padding: auto;
 }   
