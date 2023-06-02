@@ -2,13 +2,13 @@
     background-color: azure;
 }
 header{
-    display: flex;
+    display: inline ;
     background-color: aquamarine;
 margin: 180px;
 }
 
 body{
-    display: flex;
+    display: inline ;
     background-color: rgb(209, 209, 209);
 margin: 180px;
 }
