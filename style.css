@@ -3,10 +3,12 @@
 }
 header{
     background-color: aquamarine;
+margin: 100%;
 }
 
 body{
     background-color: rgb(209, 209, 209);
+margin: 100%;
 }
 .topicos{
     font-size: medium;
