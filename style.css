@@ -27,6 +27,8 @@ footer{
     padding: 80px;
 }   
 .titulo-principal{
+    display: flex;
+    text-align: center;
     font-size: 30px;
     font-style: oblique;
     color: brown;
