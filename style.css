@@ -2,15 +2,17 @@
     background-color: azure;
 }
 header{
-    display: inline ;
+    
     background-color: aquamarine;
 margin: 180px;
+padding: 180px;
 }
 
 body{
     
     background-color: rgb(209, 209, 209);
 margin: 180px;
+padding: 180px;
 }
 .topicos{
     font-size: medium;
