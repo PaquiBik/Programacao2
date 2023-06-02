@@ -17,3 +17,9 @@ body{
     font-size: small;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+footer{
+    display: flex;
+    background-color: blanchedalmond;
+    margin: 70px;
+    padding: 70px;
+}   
