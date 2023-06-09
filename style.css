@@ -1,75 +1,92 @@
-header{
-    
-    background-color: rgb(0, 255, 213);
-margin: auto;
-padding: 100px;
-}
-
 body{
-    
-    background-color: #fff;
-margin: auto;
-
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 149, 199);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.topicos{
-    font-size: medium;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+header{
+    background-color: blueviolet;
+    padding: 50px;
+    position: relative;
+    top: -50px;
 }
-.texto{
-    font-size: medium;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-}
-footer{
+h1{
     display: flex;
     justify-content: center;
-    background-color: rgba(134, 65, 0, 0.719);
-    margin: auto;
-    padding: 20px;
+}
+header a{
+    position: relative;
+    left: 784px;
+    border: 2px solid #b82222;
+    background-color: rgb(236, 58, 111);
+    text-decoration: none;
+    margin: 6px;
+    padding: 6px;
+    border-radius: 7px;
+    color: black;
+    transition: border-radius 1s, background-color 1s;
+
 
 }   
-.titulo-principal{
+header a:hover{
+    border-radius: 15px;
+    background-color: #fa75a8;
+}
+header h3{
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+h4{
+    font-style: oblique;
     
+}
+
+
+
+
+
+footer{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.secao1{
+    background-color: #b82222;
+    transition: padding 1s;
+}
+.secao1:hover{
+    background-color: #fa75a8;
+    padding: 100px;
+}
+
+.secao2{
+    background-color: #1e3ce6;
+    transition: padding 1s;
+}
+.secao2:hover{
+    background-color: #2ecbe7;
+    padding: 100px;
+}
+
+.secao1 h3{
    display: flex;
    justify-content: center;
-    text-align: center;
-    font-size: 35px;
-   font-family: 'Courier New', Courier, monospace;
-   color: rgb(255, 123, 0);
- 
 }
-.container__botao {
+.secao2 h3{
     display: flex;
-    align-items: center;
-    text-align: center;
-      background-color: var(--botao-azul);
-      border-radius: 20px;
-      padding: 0.3em;
-      display: block;
-      text-decoration: none;
-      margin-bottom: 0.3em;
-      border:1px #000000 solid;
-      color:rgb(0, 0, 0);
-      border-radius:10px;
-      
-  }
-  .container {
-    display: flex;
-    align-items: center;
-  }
- 
-.texto-rodape{
-  flex: 1;
-}
-.imagem{
-    width: 60%;
-    flex: 1;
-    text-align: right;
-  
-}
-.container-rodape-texto{
-display: flex;
-text-align: center;
-
-}
+    justify-content: center;
+ }
