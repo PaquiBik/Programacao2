@@ -7,6 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 br{
+    background-color: #1e3ce6;
     color: #b82222;
 }
 header{
