@@ -40,12 +40,7 @@ header h3{
     display: flex;
     justify-content: center;
 }
-main{
-   
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
+
 h4{
     font-style: oblique;
     
