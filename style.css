@@ -19,8 +19,6 @@ h1{
     justify-content: center;
 }
 header a{
-    position: relative;
-    left: 784px;
     border: 2px solid #b82222;
     background-color: rgb(236, 58, 111);
     text-decoration: none;
